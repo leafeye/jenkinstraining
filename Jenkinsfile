@@ -4,7 +4,7 @@ pipeline {
         stage('Test') {
             steps {
                 sh 'echo "test!"'
-                sh 'python3 hello.py'
+                sh 'python hello.py'
             }
         }
     }
